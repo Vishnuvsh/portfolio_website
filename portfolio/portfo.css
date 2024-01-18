@@ -1,43 +1,3 @@
-.sea1{
-    border: 1px solid black;
-    height: 630px;
-    margin: 20px;
-    background-color: black;
-    border-radius: 10px;
-}
-.nav{
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 19px;
-    border-radius: 10px;
-    position: fixed;
-}
-h3{
-    margin-left: 150px;
-}
-.sea2{
-    justify-content: center;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.sea3{
-    background-color: rgba(189, 189, 49, 0.793);
-    color: rgb(8, 108, 195);
-    font-weight: bold;
-}
-span{
-    color: darkorange;
-}
-.sea4{
-    color: dimgrey;
-    font-weight: lighter;
-    font-style:italic;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.sea5{
-    color: darkgray;
-}
-
 section{
     height: 100vh;
     background: rgba(21, 16, 16, 0.776);
@@ -45,9 +5,37 @@ section{
     margin: .5rem;
     border-radius: 5px;
 }
+
+/* navvvvvv */
+
+header{
+    width: 100%;
+    padding: .1rem 9%;
+    background: rgba(0, 0, 0, 0.843);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: darkorange;
+}
+nav a{
+   margin-left: 3rem;
+   text-decoration: none;
+}
+.logo{
+    font-size: 3rem;
+    text-decoration: none;
+}
+.home1{
+    line-height: 3rem;
+}
+
+/* about */
+
 .about img{
     border-radius: 1rem;
-}
+} 
 .about{
     display: flex;
     align-items: center;
@@ -55,7 +43,7 @@ section{
 }
 .about-content{
     color: whitesmoke;
-    line-height: 2rem;
+    line-height: 1rem;
 }
 .about-content h2{
     font-size: 3rem;
@@ -69,45 +57,92 @@ section{
 .service h1{
     text-align: center;
     color: white;
-    margin-top: .5rem;
+}
+.service{
+    text-align: center;
+    background-color: rgb(18, 22, 22);
+}
+.service-container{
+    align-items: center;
+    justify-content: center;
+gap: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.service-container{
-    display: flex;
+.service-box{
+    height: 20rem;
+    padding: 1rem;
+    flex: 3;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    color: white;
+    border: .2rem solid rgb(255, 255, 255);
 }
-.service
+
+
+
 /* portfolio */
-.Portfolio h2{
-    color: white;
-    color: white;
-    margin-top: .5rem; 
-    text-align: center;
+
+.portfolio h1{
+    margin-top: -5rem;
 }
-.Contact h2
-{
-    text-align: center;
-    color: white;
-}
-.card img{
+.portfolio-box img{
+    border-radius: 1rem;
     width: 100%;
     height: 100%;
 }
-.Portfolio .container{
-    justify-content: center;
-    align-items: center;
+.portfolio-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.portfolio-container .portfolio-box{
     display: flex;
-}
-.card{
-    margin-top: 5rem;
-}
-form .container{
-    border-radius: 2rem;
+ 
 }
 
-/* contact */
+/* CONTACT */
 
-button{
-    align-items: center;
-
-    
+.Contact h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: -3rem;
+}
+.Contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+.Contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Contact form .input-box input, .Contact form textarea{
+    border-radius: 1rem;
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-size: 1rem;
+}
+.Contact form .input-box input{
+    width: 49%;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    background: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    border-radius: 7rem;
+    letter-spacing: .1rem;
+}
+footer{
+    color: black;
+    text-align: center;
 }
