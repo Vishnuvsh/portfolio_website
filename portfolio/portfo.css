@@ -16,15 +16,23 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.home{
+    background: white;
+}
 span{
     color: darkorange;
+    font-size: 3rem;
 }
 nav a{
-   margin-left: 3rem;
+    color: white;
+    font-size: large;
+   margin-left: 2rem;
    text-decoration: none;
 }
 .logo{
-    font-size: 3rem;
+    color: white;
+    font-style: italic;
+    font-size: 2rem;
     text-decoration: none;
 }
 .home1{
@@ -52,8 +60,41 @@ nav a{
     font-size: 1.7rem;
 }
 
-/* sevices */
 
+/* 
+.service{
+
+    text-align: center;
+}
+
+
+.service h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.service .row{
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.service .col{
+    padding: 3rem 0rem 4rem;
+    flex: 5;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    color: white;
+}
+.card{
+    padding: 3rem 2rem 4rem;
+    background: white;
+    border-radius: 2rem;
+} */
+
+section
 .service h1{
     text-align: center;
     color: white;
@@ -81,11 +122,12 @@ gap: 2rem;
 }
 
 
-
 /* portfolio */
 
 .portfolio h1{
-    margin-top: -5rem;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
 }
 .portfolio-box img{
     border-radius: 1rem;
